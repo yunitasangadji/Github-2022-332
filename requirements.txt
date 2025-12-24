@@ -1,0 +1,12 @@
+tensorflow  
+# untuk membangun, melatih, dan menyimpan model deep learning (CNN dan transfer learning).
+scikit-learn
+# untuk evaluasi model, seperti classification report dan confusion matrix.
+numpy
+# pengolahan data numerik dan array selama preprocessing dan training.
+matplotlib
+# grafik loss & accuracy
+pillow
+# membaca gambar
+streamlit
+# website
