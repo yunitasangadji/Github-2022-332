@@ -92,8 +92,23 @@ Model ini menggunakan ResNet50 pretrained ImageNet sebagai ekstraktor fitur deng
 Evaluasi meliputi accuracy, precision, recall, dan F1-score
 pada data test untuk setiap model.
 
+| Model | Accuracy | Precision (avg) | Recall (avg) | F1-score (avg) | Analisis Singkat |
+|------|----------|------------------|--------------|----------------|------------------|
+| CNN Base | 0.67 | 0.67 | 0.67 | 0.66 | Model baseline dengan performa cukup, namun masih kesulitan membedakan kelas mid-dark dan mid-light. |
+| MobileNetV2 | - | - | - | - | - |
+| ResNet50 | - | - | - | - | - |
+
+
+
 ### Confusion Matrix
 Confusion matrix digunakan untuk menganalisis kesalahan klasifikasi antar kelas skintone.
+
+| Model | Contoh Gambar |
+|-------|--------------|
+| CNN |<img width="560" height="495" alt="output" src="https://github.com/user-attachments/assets/7c86a464-3c85-4620-bda1-61afbb2bdadd" />|
+| MobileNetV2 | ![mobilenet](images/mobilenet_sample.png) |
+| EfficientNetB0 | ![efficientnet](images/efficientnet_sample.png) |
+
 
 ### Tabel Perbandingan Model
 
