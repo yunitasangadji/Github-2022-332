@@ -17,6 +17,7 @@
    - [Pemodelan](#pemodelan)
 5. [Hasil Evaluasi dan Analisis](#hasil-evaluasi-dan-analisis)
    - [Classification Report](#classification-report)
+   - [Grafik Loss dan Accuracy](#grafik-loss-dan-accuracy)
    - [Confusion Matrix](#confusion-matrix)
    - [Tabel Perbandingan Model](#tabel-perbandingan-model)
 6. [Sistem Website Sederhana](#sistem-website-sederhana)
@@ -67,7 +68,7 @@ Pembagian ini bertujuan untuk melatih model, memantau performa selama pelatihan,
 ### Preprocessing Data
 - Ukuran gambar: **160x160**
 - CNN Base: rescale 1./255 + augmentasi ringan
-- Pretrained (MobileNetV2/ResNet50): preprocessing khusus menggunakan `preprocess_input`
+- Pretrained (MobileNetV2/ResNet50): preprocessing khusus menggunakan preprocess_input
 
 Augmentasi (train):
 - rotation_range=15
