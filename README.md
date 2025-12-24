@@ -1,6 +1,7 @@
 # Klasifikasi Skintone pada Citra Wajah
-![f897c14946d65c964bae8dd1ce2bb8ab](https://github.com/user-attachments/assets/c2827538-bbc3-44bd-90c8-3c6e996dd57d)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/97ac893a-cc07-4a70-a18f-197639c6188c" width="600">
+</p>
 
 ---
 
@@ -17,6 +18,7 @@
    - [Confusion Matrix](#confusion-matrix)
    - [Tabel Perbandingan Model](#tabel-perbandingan-model)
 5. [Sistem Website Sederhana](#sistem-website-sederhana)
+
 
 ---
 
