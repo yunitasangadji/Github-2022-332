@@ -20,7 +20,7 @@
    - [Grafik Loss dan Accuracy](#grafik-loss-dan-accuracy)
    - [Confusion Matrix](#confusion-matrix)
    - [Tabel Perbandingan Model](#tabel-perbandingan-model)
-6. [Sistem Website Sederhana](#sistem-website-sederhana)
+6. [Tampilan](#sistem-website-sederhana)
 
 
 ---
@@ -116,6 +116,7 @@ Confusion matrix digunakan untuk menganalisis kesalahan klasifikasi antar kelas 
 
 ## Sistem Website Sederhana
 Sistem website dibangun menggunakan Streamlit dan dijalankan secara lokal.
+<img width="895" height="565" alt="image" src="https://github.com/user-attachments/assets/b9a2550b-09d3-442b-a140-7a811c00ac99" />
 
 Fitur website:
 - Upload gambar wajah
