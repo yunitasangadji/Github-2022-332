@@ -95,22 +95,22 @@ pada data test untuk setiap model.
 | Model | Accuracy | Precision (avg) | Recall (avg) | F1-score (avg) | Analisis Singkat |
 |------|----------|------------------|--------------|----------------|------------------|
 | CNN Base | 0.67 | 0.67 | 0.67 | 0.66 | Model baseline dengan performa cukup, namun masih kesulitan membedakan kelas mid-dark dan mid-light. |
-| MobileNetV2 | - | - | - | - | - |
-| ResNet50 | - | - | - | - | - |
+| MobileNetV2 | 0.71 | 0.71 | 0.71 | 0.71 | lebih baik dibandingkan CNN base, dengan performa terbaik pada kelas dark dan masih mengalami kesalahan pada kelas mid-light yang memiliki kemiripan visual. |
+| ResNet50 | 78 | 79 | 78 | 77 | akurasi tertinggi sebesar 78% dibandingkan model lainnya. Model ini mampu menangkap fitur visual yang lebih kompleks, terlihat dari performa yang baik pada hampir semua kelas, meskipun masih terdapat kesalahan pada kelas mid-dark yang memiliki kemiripan visual dengan kelas lain. |
 
+### Grafik Loss dan Accuracy
 
 
 ### Confusion Matrix
 Confusion matrix digunakan untuk menganalisis kesalahan klasifikasi antar kelas skintone.
 
+
+### Tabel Perbandingan Model
 | Model | Contoh Gambar |
 |-------|--------------|
 | CNN |<img width="560" height="495" alt="output" src="https://github.com/user-attachments/assets/7c86a464-3c85-4620-bda1-61afbb2bdadd" />|
-| MobileNetV2 | ![mobilenet](images/mobilenet_sample.png) |
-| EfficientNetB0 | ![efficientnet](images/efficientnet_sample.png) |
-
-
-### Tabel Perbandingan Model
+| MobileNetV2 | <img width="567" height="502" alt="output" src="https://github.com/user-attachments/assets/3a3e9c3d-a660-44ba-8c5c-690cbd1d34e9" />|
+| Resnet50 |<img width="663" height="588" alt="resnet" src="https://github.com/user-attachments/assets/117c6b76-1886-463e-9045-d37854af1cb7" />|
 
 ---
 
